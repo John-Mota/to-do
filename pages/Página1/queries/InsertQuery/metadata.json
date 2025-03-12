@@ -17,6 +17,12 @@
           "data": "ROWS",
           "viewType": "component"
         },
+        "pagination": {
+          "data": {
+            "limit": "20",
+            "offset": "0"
+          }
+        },
         "projection": {
           "data": []
         },
@@ -30,7 +36,7 @@
         },
         "rowObjects": {
           "componentData": "{{insert_form.formData}}",
-          "data": "{{insert_form.formData}}",
+          "data": "{\n  \"rowIndex\": {{data_table.selectedRow.rowIndexInput}},\n  \"id\": {{get_status.data.length + 1}},\n  \"task\": {{data_table.selectedRow.taskInput}},\n  \"status\": {{data_table.selectedRow.statusInput}},\n  \"due_date\": {{moment(data_table.selectedRow.due_date).format('DD/MM/YYYY')}},\n  \"priority\": {{data_table.selectedRow.priorityInput}}\n}\n",
           "viewType": "component"
         },
         "sheetName": {
@@ -52,6 +58,11 @@
           "componentData": "1",
           "data": "1",
           "viewType": "component"
+        },
+        "where": {
+          "data": {
+            "condition": "AND"
+          }
         }
       },
       "paginationType": "NONE",
@@ -121,6 +132,11 @@
       "name": "tasks",
       "pluginId": "google-sheets-plugin"
     },
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "executeOnLoad": false,
     "name": "InsertQuery",
     "pageId": "Página1",
