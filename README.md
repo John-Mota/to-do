@@ -8,4 +8,4 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ##### You can visit the application using the below link
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/67d185a474b194767cc822ec/pages/67d185a474b194767cc822ee) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/67d185a474b194767cc822ec/pages/67d185a474b194767cc822ee/edit)
+###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/67cae69420c63b4378697221/pages/67cae69420c63b4378697223) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/67cae69420c63b4378697221/pages/67cae69420c63b4378697223/edit)

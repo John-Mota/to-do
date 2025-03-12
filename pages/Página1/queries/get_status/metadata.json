@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67d185a474b194767cc822ec_5e176698-8a49-4811-8365-d5d4506ae39c",
-  "id": "Page1_Find_P_gina11",
+  "gitSyncId": "67cb3305c5b73a205202ade9_a5fa0b7c-0fb9-4671-89d4-cb92fe83c2cb",
+  "id": "Página1_get_status",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -15,8 +15,8 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
-            "offset": "{{Table1.pageOffset}}"
+            "limit": "60",
+            "offset": "0"
           }
         },
         "projection": {
@@ -40,8 +40,8 @@
         "sortBy": {
           "data": [
             {
-              "column": "{{Table1.sortOrder.column}}",
-              "order": "Table1.sortOrder.order !== \"desc\""
+              "column": "",
+              "order": "Ascending"
             }
           ]
         },
@@ -52,9 +52,7 @@
           "data": {
             "children": [
               {
-                "condition": "CONTAINS",
-                "key": "{{Table1.searchText ? \"undefined\" : \"\"}}",
-                "value": "{{Table1.searchText}}"
+                "condition": "LT"
               }
             ],
             "condition": "AND"
@@ -71,20 +69,10 @@
       "name": "tasks",
       "pluginId": "google-sheets-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.where.data"
-      },
-      {
-        "key": "formData.sortBy.data"
-      },
-      {
-        "key": "formData.pagination.data"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Find_P_gina11",
-    "pageId": "Page1",
+    "name": "get_status",
+    "pageId": "Página1",
     "userSetOnLoad": false
   }
 }

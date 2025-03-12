@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
@@ -13,15 +16,27 @@
   },
   "applicationVersion": 2,
   "collapseInvisibleWidgets": true,
-  "color": "#F5D1D1",
+  "color": "#FBF4ED",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": true,
+    "width": "1024px"
+  },
   "evaluationVersion": 2,
-  "icon": "shirt",
+  "icon": "smartphone",
   "pages": [
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Página1",
+      "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"

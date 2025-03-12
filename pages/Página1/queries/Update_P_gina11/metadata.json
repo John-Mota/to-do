@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67d185a474b194767cc822ec_4c0c3039-3c83-407b-8831-1b9903e92f73",
-  "id": "Page1_Update_P_gina11",
+  "gitSyncId": "67cae69420c63b4378697221_329f567f-387c-40a0-8b6e-d9649a8e9eb2",
+  "id": "Página1_Update_P_gina11",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -66,7 +66,7 @@
     ],
     "executeOnLoad": false,
     "name": "Update_P_gina11",
-    "pageId": "Page1",
+    "pageId": "Página1",
     "userSetOnLoad": false
   }
 }
