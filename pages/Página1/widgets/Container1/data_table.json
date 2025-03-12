@@ -28,19 +28,19 @@
   "columnOrder": [
     "id",
     "rowIndex",
-    "customColumn4",
-    "customColumn2",
     "task",
     "status",
     "date",
-    "priority"
+    "priority",
+    "customColumn4",
+    "customColumn2"
   ],
   "columnSizeMap": {
     "status": 75,
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1741783151623,
+  "columnUpdatedAt": 1741786120756,
   "columnWidthMap": {
     "priority": 156
   },
