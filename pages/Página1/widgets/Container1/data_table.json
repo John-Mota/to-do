@@ -171,7 +171,7 @@
   "key": "zba5qel0au",
   "label": "Data",
   "labelTextSize": "0.875rem",
-  "leftColumn": 2,
+  "leftColumn": 1,
   "onPageChange": "{{SelectQuery.run()}}",
   "onPageSizeChange": "{{navigateTo(\"\", {}, 'SAME_WINDOW')}}",
   "onSearchTextChanged": "",
@@ -475,7 +475,7 @@
     }
   },
   "renderMode": "CANVAS",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
