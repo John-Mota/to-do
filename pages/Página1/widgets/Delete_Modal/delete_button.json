@@ -25,7 +25,7 @@
   "isVisible": "true",
   "labelTextSize": "0.875rem",
   "leftColumn": 48,
-  "onClick": "{{(function () {\nDeleteQuery.run(() =>{ showAlert('Row successfully deleted!','success');\tSelectQuery.run();\n}, () => showAlert('Something went wrong! Please check debugger for more info.','error'));\ncloseModal('Delete_Modal');\n})()}}",
+  "onClick": "{{(function () {\nDeleteQuery.run(() =>{ showAlert('Row successfully deleted!','success');\tSelectQuery.run();\nget_status.run()\n}, () => showAlert('Something went wrong! Please check debugger for more info.','error'));\ncloseModal('Delete_Modal');\n})()}}",
   "parentId": "zi8fjakv8o",
   "recaptchaType": "V3",
   "rightColumn": 64,

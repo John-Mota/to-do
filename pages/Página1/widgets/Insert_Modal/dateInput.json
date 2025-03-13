@@ -2,12 +2,12 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 28,
+  "bottomRow": 31,
   "boxShadow": "none",
   "closeOnSelection": true,
   "dateFormat": "DD/MM/YYYY",
   "datePickerType": "DATE_PICKER",
-  "defaultDate": "{{data_table.selectedRow}}",
+  "defaultDate": "{{moment().startOf('day').toISOString()}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -16,19 +16,19 @@
       "key": "borderRadius"
     },
     {
-      "key": "minDate"
+      "key": "defaultDate"
     },
     {
-      "key": "defaultDate"
+      "key": "minDate"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
-      "key": "minDate"
+      "key": "defaultDate"
     },
     {
-      "key": "defaultDate"
+      "key": "minDate"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -37,34 +37,36 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "x1bhhknjn8",
+  "key": "jej3mnni98",
   "label": "Date",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 33,
+  "leftColumn": 35,
   "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
   "minDate": "{{moment().startOf('day').toISOString()}}",
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 33,
-  "mobileLeftColumn": 32,
-  "mobileRightColumn": 52,
-  "mobileTopRow": 26,
+  "mobileBottomRow": 48,
+  "mobileLeftColumn": 22,
+  "mobileRightColumn": 42,
+  "mobileTopRow": 41,
   "needsErrorInfo": false,
-  "parentColumnSpace": 6.9375,
-  "parentId": "7kd7roymox",
+  "originalBottomRow": 32,
+  "originalTopRow": 25,
+  "parentColumnSpace": 8.125,
+  "parentId": "9rhv3ioohq",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 58,
+  "rightColumn": 52,
   "shortcuts": false,
   "timePrecision": "minute",
-  "topRow": 21,
+  "topRow": 24,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
-  "widgetId": "626te309cy",
-  "widgetName": "dateUpdate"
+  "widgetId": "eao9fkghes",
+  "widgetName": "dateInput"
 }

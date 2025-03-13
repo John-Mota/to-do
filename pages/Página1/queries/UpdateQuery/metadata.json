@@ -36,7 +36,7 @@
         },
         "rowObjects": {
           "componentData": "{{\n\t{\n\t\t...update_form.formData, \n\t\trowIndex:data_table.selectedRow.rowIndex\n\t}\n}}",
-          "data": "{\n  \"rowIndex\": \"{{rowUpdate.text}}\",\n  \"id\": \"{{idUpdate.text}}\",\n  \"task\":  \"{{taskUpdate.text}}\",\n  \"status\": \"{{statusUpdate.selectedOptionValue}}\",\n  \"due_date\": \"{{dateUpdate.formattedDate}}\",\n  \"priority\": \"{{priorityUpdate.selectedOptionValue}}\"\n}\n",
+          "data": "{\n  \"rowIndex\": {{rowUpdate.text}},\n  \"id\": {{idUpdate.text}},\n  \"task\":  \"{{taskUpdate.text}}\",\n  \"status\": \"{{statusUpdate.selectedOptionValue}}\",\n  \"date\": {{dateUpdate.formattedDate}}, \n  \"priority\": \"{{priorityUpdate.selectedOptionValue}}\"\n}\n",
           "viewType": "component"
         },
         "sheetName": {

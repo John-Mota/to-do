@@ -36,7 +36,7 @@
         },
         "rowObjects": {
           "componentData": "{{insert_form.formData}}",
-          "data": "{\n  \"rowIndex\": {{data_table.selectedRow.rowIndexInput}},\n  \"id\": {{get_status.data.length + 1}},\n  \"task\": {{data_table.selectedRow.taskInput}},\n  \"status\": {{data_table.selectedRow.statusInput}},\n  \"due_date\": {{moment(data_table.selectedRow.due_date).format('DD/MM/YYYY')}},\n  \"priority\": {{data_table.selectedRow.priorityInput}}\n}\n",
+          "data": "{\n  \"id\": \"{{idInput.text}}\",\n  \"task\": {{taskInput.text}},\n  \"status\": \"{{statusInput.selectedOptionValue}}\",\n  \"date\": {{moment(dateInput.formattedDate).format('YYYY-MM-DD')}},\n  \"priority\": \"{{priorityInput.selectedOptionValue}}\"\n}\n",
           "viewType": "component"
         },
         "sheetName": {
